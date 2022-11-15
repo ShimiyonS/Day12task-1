@@ -1,0 +1,92 @@
+*{
+    margin-left: 25px;
+    text-align: center;
+    font-family:poppins;
+    margin-right: 25px;
+}
+.headertop{
+    display: flex;
+    border: 1px solid black;
+    background-color: #2f3d46;
+    color: aliceblue;
+    height :10vh;
+    letter-spacing: 0.2em;
+}
+.icon{
+    font-size: 30px;
+    flex-basis: 70px;
+    margin: auto;
+}
+span{
+    flex-grow: 1;
+    margin: auto;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    background-color: #cad2c5;
+}
+.leftarea{
+    flex-basis: 30%;
+    background-color: #353535;
+    margin:60px 90px;
+    border-radius: 10px;
+    
+}
+.rightarea{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    flex-basis: 100%;
+    margin-right: 10%;
+}
+.box1{
+    color: #808b8b;
+    background-color: #353535;
+    width: 80%;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 5%;
+    height: 30px;
+}
+.hbox{
+    width:100%;
+    margin-bottom:70px ;
+    margin-top: 70px;
+    height: 40px;
+}
+.box2{
+    height:200px;
+    margin-right: 80px;
+    background-color: #cad2c5;
+    border-radius: 8px;
+    color: #808b8b;
+}
+.inbox{
+    display:inline-block;
+    width: 25%;
+    height: 190px;
+    text-align: center;
+    background-color: #353535;
+    border-radius: 8px;
+}
+.inbox1{
+    margin-left:-35%;
+}
+.inbox2{
+    margin-left:12%;
+    margin-right:12%
+}
+.inbox3{
+    margin-left:0%;
+    margin-right:-35%;
+}
+.box3{
+    height:200px;
+    margin-top: 50px;
+    margin-bottom:70px;
+    background-color: #353535;
+    color: #808b8b;
+    border-radius: 8px;
+}
